@@ -1,0 +1,40 @@
+.nav-bar {
+    background-color: #ddd;
+    padding: 5px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.logo img {
+    height: 50px;
+    transition: all .3s;
+}
+
+.logo img:hover {
+    transform: scale(1.05);
+}
+
+.main-nav {
+    position: absolute;
+    top: 20px;
+    right: 15px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #444;
+    padding-right: 25px;
+    font-size: 1.2rem;
+    transition: all .2s;
+    
+}
+
+.nav-link:last-child {
+    padding-right: none;
+}
+
+.nav-link:hover {
+    color: #c61a1a;
+}
