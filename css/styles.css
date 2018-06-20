@@ -8,6 +8,8 @@ p {
     line-height: 2;
 }
 
+/* ==== HEADER ==== */
+
 header {
     background-color: #aaa;
     height: 50vh;
@@ -33,12 +35,15 @@ header .col {
     color: #FFF;
 }
 
+/* ==== INTRO ==== */
+
 .intro p {
     margin-bottom: 25px;
 }
 
 .social-links {
     margin-left: -33px;
+    margin-bottom: 50px;
 }
 
 .social-links li {
@@ -88,4 +93,21 @@ header .col {
 
 .linkedin:hover {
     background-color: #0077B5;
+}
+
+/* ==== RECENT WORK ==== */
+
+.recent-work {
+    background-color: #eee;
+}
+
+.project-container {
+    background-color: #ddd;
+    height: 300px;
+}
+
+.project {
+    margin-top: 25px;
+    background-color: #ccc;
+    height: 250px;
 }
