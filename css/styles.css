@@ -2,3 +2,27 @@ html, body {
   font-family: "Roboto", Arial, Helvetica, sans-serif;
   font-size: 16px;
 }
+
+header {
+    background-color: #aaa;
+    height: 50vh;
+    width: 100%;
+    position: relative;
+    padding-top: 60px;
+}
+
+.hero-home {
+    background: url(/img/hero-home-1.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+header .col {
+    background-color: rgba(0, 0, 0, .4);
+    height: 50vh;
+}
+
+.page-title {
+    padding-top: 20vh;
+    text-align: center;
+    color: #FFF;
+}
