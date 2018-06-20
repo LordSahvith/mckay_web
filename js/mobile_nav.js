@@ -12,6 +12,13 @@ function toggleNav() {
     }
 }
 
+function closeNav() {    
+    var navItems = document.getElementById("nav-items");
+    
+    navItems.style.width = "0%";
+    openMenu = false;
+}
+
 $(document).ready(function() {
 
     var $toggleButton = $('.toggle-button');

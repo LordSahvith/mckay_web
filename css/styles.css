@@ -1,3 +1,10 @@
+/*
+    red: #c61a1a
+*/
+
+* {
+    box-sizing: border-box;
+}
 html, body {
     font-family: "Roboto", Arial, Helvetica, sans-serif;
     font-size: 16px;
@@ -78,8 +85,8 @@ header .col {
     background-color: #6CADDE;
 }
 
-.instagram:hover {
-    background-color: #bc1888;
+.pinterest:hover {
+    background-color: #c92228;
 }
 
 .github:hover {
@@ -124,7 +131,7 @@ header .col {
     transform: scale(1.3);
 }
 
-/* ======== RECENT WORK =========== */
+/* ======== TESTIMONIALS - HOME =========== */
 
 blockquote {
     line-height: 2;
@@ -144,10 +151,180 @@ blockquote::after {
 blockquote::before,
 blockquote::after {
     font-size: 1.5rem;
+    color: #c61a1a;
+    font-weight: 600;
 }
 
 .author::before {
     content: "-";
     font-size: 1.5rem;
     padding-right: 5px;
+    color: #c61a1a;
 }
+
+/* ======== SERVICES - HOME =========== */
+
+.services-home {
+    background-color: #ddd;
+}
+
+.services-home h2 {
+    margin-bottom: 20px;
+}
+
+.services-container {
+    margin-bottom: 30px;
+}
+
+.service {
+    height: 200px;
+    position: relative;
+    padding-top: 15px;
+}
+
+.service-description p {
+    line-height: 1.5;
+}
+
+.service-icon {
+    color: #333;
+}
+
+.red-screen {
+    position: absolute;
+    background-color: #c61a1a;
+    height: 100px;
+    width: 150px;
+    top: 35px;
+    left: 60px;
+}
+
+.service-wrapper {
+    position: relative;
+}
+
+.inner {
+    position: absolute;
+}
+
+.desktop {
+    font-size: 10rem;
+}
+
+.laptop {
+    font-size: 5rem;
+    top: 30px;
+    left: 85px;
+}
+
+.tablet {
+    font-size: 2.3rem;
+    top: 44px;
+    left: 118px;
+}
+
+.mobile {
+    font-size: 1.4rem;
+    top: 48px;
+    left: 127px;
+}
+
+.code,
+.cms {
+    font-size: 5rem;
+    top: 29px;
+    left: 85px;
+}
+
+@media screen and (min-width: 530px) {
+    .red-screen {
+        left: 120px;    
+    }
+    
+    .laptop {
+        left: 145px;
+    }
+    
+    .tablet {
+        left: 178px;
+    }
+    
+    .mobile {
+        left: 187px;
+    }
+
+    .code,
+    .cms {
+        left: 145px;
+    }
+}
+
+@media screen and (min-width: 750px) {
+    .red-screen {
+        left: 15px;    
+    }
+    
+    .laptop {
+        left: 40px;
+    }
+    
+    .tablet {
+        left: 74px;
+    }
+    
+    .mobile {
+        left: 83px;
+    }
+
+    .code,
+    .cms {
+        left: 40px;
+    }
+}
+
+@media screen and (min-width: 980px) {
+    .red-screen {
+        left: 35px;    
+    }
+    
+    .laptop {
+        left: 60px;
+    }
+    
+    .tablet {
+        left: 94px;
+    }
+    
+    .mobile {
+        left: 103px;
+    }
+
+    .code,
+    .cms {
+        left: 60px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .red-screen {
+        left: 65px;    
+    }
+    
+    .laptop {
+        left: 90px;
+    }
+    
+    .tablet {
+        left: 124px;
+    }
+    
+    .mobile {
+        left: 133px;
+    }
+
+    .code,
+    .cms {
+        left: 90px;
+    }
+}
+
