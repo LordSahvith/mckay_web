@@ -1,5 +1,6 @@
 /*
-    red: #c61a1a
+    dark red: #c61a1a
+    light red: #da1d1d
 */
 
 * {
@@ -22,7 +23,6 @@ header {
     height: 50vh;
     width: 100%;
     position: relative;
-    padding-top: 60px;
     overflow: hidden;
 }
 
@@ -43,6 +43,10 @@ header .col {
 }
 
 /* ==== INTRO ==== */
+
+.intro {
+    margin-bottom: 30px;
+}
 
 .intro p {
     margin-bottom: 25px;
@@ -192,7 +196,7 @@ blockquote::after {
 
 .red-screen {
     position: absolute;
-    background-color: #c61a1a;
+    background-color: #da1d1d;
     height: 100px;
     width: 150px;
     top: 35px;
@@ -236,7 +240,12 @@ blockquote::after {
     left: 85px;
 }
 
+
+/* ====== MEDIA QUERIES =================== */
+
 @media screen and (min-width: 530px) {
+
+    /* ====== SERVICES - HOME ============= */
     .red-screen {
         left: 120px;    
     }
@@ -260,6 +269,8 @@ blockquote::after {
 }
 
 @media screen and (min-width: 750px) {
+
+    /* ====== SERVICES - HOME ============= */
     .red-screen {
         left: 15px;    
     }
@@ -283,6 +294,8 @@ blockquote::after {
 }
 
 @media screen and (min-width: 980px) {
+
+    /* ====== SERVICES - HOME ============= */
     .red-screen {
         left: 35px;    
     }
@@ -306,6 +319,8 @@ blockquote::after {
 }
 
 @media screen and (min-width: 1200px) {
+
+    /* ====== SERVICES - HOME ============= */
     .red-screen {
         left: 65px;    
     }
