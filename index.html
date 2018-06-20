@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Home page for Mcaky Web Design.">
 
+    <link rel="shortcut icon" type="image/png" href="/img/logo-red.png"/>
+    
     <link rel="stylesheet" href="/css/normalize.css">
     <link rel="stylesheet" href="/css/responsive.css">
     <link rel="stylesheet" href="/css/site-nav.css">
@@ -15,23 +17,36 @@
 
     <div class="nav-bar">
 
-        <div class="row">
+        <a class="logo" href="index.html">
+            <img src="/img/logo-red.png" alt="Mckay Web Design Logo">
+        </a>
 
-            <a class="logo" href="index.html">
-                <img src="/img/logo-red.png" alt="Mckay Web Design Logo">
-            </a>
 
-            <nav class="main-nav" role="navigation">
+        <nav id="nav-items" class="overlay" role="navigation">
+            <div class="overlay-content">
                 <a href="#" class="nav-link">Services</a>
                 <a href="#" class="nav-link">Projects</a>
                 <a href="#" class="nav-link">Blog</a>
                 <a href="#" class="nav-link">About</a>
                 <a href="#" class="nav-link">Contact</a>
-            </nav>
+            </div>
+        </nav>
 
-        </div>
+        <div class="mobile-icon" onclick="toggleNav()">
+            <div class="fade-up">
+                <div class="toggle-button">
+                    <div class="menu-bar menu-bar-top"></div>
+                    <div class="menu-bar menu-bar-middle"></div>
+                    <div class="menu-bar menu-bar-bottom"></div>
+                </div>
+            </div>
+        </div> <!-- mobile-icon -->
 
-    </div>
+
+    </div> <!-- nav-bar -->
+
+    <script src="Jquery/jquery-3.2.1.min.js"></script>
+    <script src="js/mobile_nav.js"></script>
 
 
 </body>
