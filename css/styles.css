@@ -59,9 +59,9 @@ header .col {
 .social-badge {
     position: absolute;
     font-size: 1.6rem;
-    background: #222;
+    background: #333;
     width: 30px;
-    padding-top: 3px;
+    padding: 3px 1px 1px;
     transition: all 0.3s;    
     border-radius: 100%;
     -webkit-border-radius: 100%;
@@ -83,10 +83,6 @@ header .col {
     background-color: #bc1888;
 }
 
-.github {
-    padding-right: 1px;
-}
-
 .github:hover {
     background-color: #333;
 }
@@ -101,13 +97,30 @@ header .col {
     background-color: #eee;
 }
 
+.recent-work h2 {
+    margin-bottom: 50px;
+}
+
 .project-container {
-    background-color: #ddd;
-    height: 300px;
+    height: 250px;
 }
 
 .project {
     margin-top: 25px;
-    background-color: #ccc;
-    height: 250px;
+    height: 200px;
+    overflow: hidden;
+}
+
+.project img {
+    display: block;
+    width: 100%;
+    transition: all .4s;
+}
+
+.project img:hover {
+    transform: scale(1.05);
+}
+
+.middle-project {
+    transform: scale(1.3);
 }
