@@ -259,7 +259,6 @@ blockquote::after {
 .skill-container {
     height: 200px;
     margin-top: 60px;
-    padding-left: 40px;
 }
 
 .wordpress {
@@ -307,10 +306,6 @@ blockquote::after {
     .cms {
         left: 145px;
     }
-
-    .skill-container {
-        padding-left: 95px;
-    }
 }
 
 @media screen and (min-width: 750px) {
@@ -341,10 +336,6 @@ blockquote::after {
     .awesome-info {
         margin-left: 25px;
     } 
-
-    .skill-container {
-        padding-left: 0;
-    }
 }
 
 @media screen and (min-width: 980px) {
@@ -399,10 +390,6 @@ blockquote::after {
     .code,
     .cms {
         left: 90px;
-    }
-
-    .skill-container {
-        padding-left: 40px;
     }
 }
 

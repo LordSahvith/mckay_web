@@ -1,51 +1,51 @@
 .rect-auto,
-.c100.p80 .slice,
-.c100.p81 .slice,
-.c100.p82 .slice,
-.c100.p83 .slice,
-.c100.p84 .slice,
-.c100.p85 .slice,
-.c100.p86 .slice,
-.c100.p87 .slice,
-.c100.p88 .slice,
-.c100.p89 .slice,
-.c100.p90 .slice,
-.c100.p91 .slice,
-.c100.p92 .slice,
-.c100.p93 .slice,
-.c100.p94 .slice,
-.c100.p95 .slice,
-.c100.p96 .slice,
-.c100.p97 .slice,
-.c100.p98 .slice,
-.c100.p99 .slice,
-.c100.p100 .slice {
+.circle.p80 .slice,
+.circle.p81 .slice,
+.circle.p82 .slice,
+.circle.p83 .slice,
+.circle.p84 .slice,
+.circle.p85 .slice,
+.circle.p86 .slice,
+.circle.p87 .slice,
+.circle.p88 .slice,
+.circle.p89 .slice,
+.circle.p90 .slice,
+.circle.p91 .slice,
+.circle.p92 .slice,
+.circle.p93 .slice,
+.circle.p94 .slice,
+.circle.p95 .slice,
+.circle.p96 .slice,
+.circle.p97 .slice,
+.circle.p98 .slice,
+.circle.p99 .slice,
+.circle.p100 .slice {
     clip: rect(auto, auto, auto, auto);
 }
 
 .pie,
-.c100 .bar,
-.c100.p80 .fill,
-.c100.p81 .fill,
-.c100.p82 .fill,
-.c100.p83 .fill,
-.c100.p84 .fill,
-.c100.p85 .fill,
-.c100.p86 .fill,
-.c100.p87 .fill,
-.c100.p88 .fill,
-.c100.p89 .fill,
-.c100.p90 .fill,
-.c100.p91 .fill,
-.c100.p92 .fill,
-.c100.p93 .fill,
-.c100.p94 .fill,
-.c100.p95 .fill,
-.c100.p96 .fill,
-.c100.p97 .fill,
-.c100.p98 .fill,
-.c100.p99 .fill,
-.c100.p100 .fill {
+.circle .bar,
+.circle.p80 .fill,
+.circle.p81 .fill,
+.circle.p82 .fill,
+.circle.p83 .fill,
+.circle.p84 .fill,
+.circle.p85 .fill,
+.circle.p86 .fill,
+.circle.p87 .fill,
+.circle.p88 .fill,
+.circle.p89 .fill,
+.circle.p90 .fill,
+.circle.p91 .fill,
+.circle.p92 .fill,
+.circle.p93 .fill,
+.circle.p94 .fill,
+.circle.p95 .fill,
+.circle.p96 .fill,
+.circle.p97 .fill,
+.circle.p98 .fill,
+.circle.p99 .fill,
+.circle.p100 .fill {
     position: absolute;
     border: 0.08em solid #da1d1d;
     width: 0.84em;
@@ -60,48 +60,48 @@
 }
 
 .pie-fill,
-.c100.p80 .bar:after,
-.c100.p80 .fill,
-.c100.p81 .bar:after,
-.c100.p81 .fill,
-.c100.p82 .bar:after,
-.c100.p82 .fill,
-.c100.p83 .bar:after,
-.c100.p83 .fill,
-.c100.p84 .bar:after,
-.c100.p84 .fill,
-.c100.p85 .bar:after,
-.c100.p85 .fill,
-.c100.p86 .bar:after,
-.c100.p86 .fill,
-.c100.p87 .bar:after,
-.c100.p87 .fill,
-.c100.p88 .bar:after,
-.c100.p88 .fill,
-.c100.p89 .bar:after,
-.c100.p89 .fill,
-.c100.p90 .bar:after,
-.c100.p90 .fill,
-.c100.p91 .bar:after,
-.c100.p91 .fill,
-.c100.p92 .bar:after,
-.c100.p92 .fill,
-.c100.p93 .bar:after,
-.c100.p93 .fill,
-.c100.p94 .bar:after,
-.c100.p94 .fill,
-.c100.p95 .bar:after,
-.c100.p95 .fill,
-.c100.p96 .bar:after,
-.c100.p96 .fill,
-.c100.p97 .bar:after,
-.c100.p97 .fill,
-.c100.p98 .bar:after,
-.c100.p98 .fill,
-.c100.p99 .bar:after,
-.c100.p99 .fill,
-.c100.p100 .bar:after,
-.c100.p100 .fill {
+.circle.p80 .bar:after,
+.circle.p80 .fill,
+.circle.p81 .bar:after,
+.circle.p81 .fill,
+.circle.p82 .bar:after,
+.circle.p82 .fill,
+.circle.p83 .bar:after,
+.circle.p83 .fill,
+.circle.p84 .bar:after,
+.circle.p84 .fill,
+.circle.p85 .bar:after,
+.circle.p85 .fill,
+.circle.p86 .bar:after,
+.circle.p86 .fill,
+.circle.p87 .bar:after,
+.circle.p87 .fill,
+.circle.p88 .bar:after,
+.circle.p88 .fill,
+.circle.p89 .bar:after,
+.circle.p89 .fill,
+.circle.p90 .bar:after,
+.circle.p90 .fill,
+.circle.p91 .bar:after,
+.circle.p91 .fill,
+.circle.p92 .bar:after,
+.circle.p92 .fill,
+.circle.p93 .bar:after,
+.circle.p93 .fill,
+.circle.p94 .bar:after,
+.circle.p94 .fill,
+.circle.p95 .bar:after,
+.circle.p95 .fill,
+.circle.p96 .bar:after,
+.circle.p96 .fill,
+.circle.p97 .bar:after,
+.circle.p97 .fill,
+.circle.p98 .bar:after,
+.circle.p98 .fill,
+.circle.p99 .bar:after,
+.circle.p99 .fill,
+.circle.p100 .bar:after,
+.circle.p100 .fill {
     -webkit-transform: rotate(180deg);
     -moz-transform: rotate(180deg);
     -ms-transform: rotate(180deg);
@@ -109,7 +109,7 @@
     transform: rotate(180deg);
 }
 
-.c100 {
+.circle {
     position: relative;
     font-size: 120px;
     width: 1em;
@@ -120,29 +120,25 @@
     background-color: #bbb;
 }
 
-.c100 *,
-.c100 *:before,
-.c100 *:after {
+.circle *,
+.circle *:before,
+.circle *:after {
     -webkit-box-sizing: content-box;
     -moz-box-sizing: content-box;
     box-sizing: content-box;
 }
 
-.c100.center {
+.circle.center {
     float: none;
     margin: 0 auto;
 }
 
-.c100.big {
+.circle {
     font-size: 200px;
     margin: 0 auto;
 }
 
-.c100.small {
-    font-size: 80px;
-}
-
-.c100 > span {
+.circle > span {
     position: absolute;
     width: 100%;
     z-index: 1;
@@ -157,7 +153,7 @@
     text-align: center;
 }
 
-.c100:after {
+.circle:after {
     position: absolute;
     top: 0.08em;
     left: 0.08em;
@@ -169,14 +165,14 @@
     height: 0.84em;
 }
 
-.c100 .slice {
+.circle .slice {
     position: absolute;
     width: 1em;
     height: 1em;
     clip: rect(0em, 1em, 1em, 0.5em);
 }
 
-.c100.p12 .bar {
+.circle.p12 .bar {
     -webkit-transform: rotate(43.2deg);
     -moz-transform: rotate(43.2deg);
     -ms-transform: rotate(43.2deg);
@@ -184,7 +180,7 @@
     transform: rotate(43.2deg);
 }
 
-.c100.p25 .bar {
+.circle.p25 .bar {
     -webkit-transform: rotate(90deg);
     -moz-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
@@ -192,7 +188,7 @@
     transform: rotate(90deg);
 }
 
-.c100.p50 .bar {
+.circle.p50 .bar {
     -webkit-transform: rotate(180deg);
     -moz-transform: rotate(180deg);
     -ms-transform: rotate(180deg);
@@ -200,7 +196,7 @@
     transform: rotate(180deg);
 }
 
-.c100.p75 .bar {
+.circle.p75 .bar {
     -webkit-transform: rotate(270deg);
     -moz-transform: rotate(270deg);
     -ms-transform: rotate(270deg);
@@ -208,7 +204,7 @@
     transform: rotate(270deg);
 }
 
-.c100.p80 .bar {
+.circle.p80 .bar {
     -webkit-transform: rotate(288deg);
     -moz-transform: rotate(288deg);
     -ms-transform: rotate(288deg);
@@ -216,7 +212,7 @@
     transform: rotate(288deg);
 }
 
-.c100.p81 .bar {
+.circle.p81 .bar {
     -webkit-transform: rotate(291.6deg);
     -moz-transform: rotate(291.6deg);
     -ms-transform: rotate(291.6deg);
@@ -224,7 +220,7 @@
     transform: rotate(291.6deg);
 }
 
-.c100.p82 .bar {
+.circle.p82 .bar {
     -webkit-transform: rotate(295.2deg);
     -moz-transform: rotate(295.2deg);
     -ms-transform: rotate(295.2deg);
@@ -232,7 +228,7 @@
     transform: rotate(295.2deg);
 }
 
-.c100.p83 .bar {
+.circle.p83 .bar {
     -webkit-transform: rotate(298.8deg);
     -moz-transform: rotate(298.8deg);
     -ms-transform: rotate(298.8deg);
@@ -240,7 +236,7 @@
     transform: rotate(298.8deg);
 }
 
-.c100.p84 .bar {
+.circle.p84 .bar {
     -webkit-transform: rotate(302.40000000000003deg);
     -moz-transform: rotate(302.40000000000003deg);
     -ms-transform: rotate(302.40000000000003deg);
@@ -248,7 +244,7 @@
     transform: rotate(302.40000000000003deg);
 }
 
-.c100.p85 .bar {
+.circle.p85 .bar {
     -webkit-transform: rotate(306deg);
     -moz-transform: rotate(306deg);
     -ms-transform: rotate(306deg);
@@ -256,7 +252,7 @@
     transform: rotate(306deg);
 }
 
-.c100.p86 .bar {
+.circle.p86 .bar {
     -webkit-transform: rotate(309.6deg);
     -moz-transform: rotate(309.6deg);
     -ms-transform: rotate(309.6deg);
@@ -264,7 +260,7 @@
     transform: rotate(309.6deg);
 }
 
-.c100.p87 .bar {
+.circle.p87 .bar {
     -webkit-transform: rotate(313.2deg);
     -moz-transform: rotate(313.2deg);
     -ms-transform: rotate(313.2deg);
@@ -272,7 +268,7 @@
     transform: rotate(313.2deg);
 }
 
-.c100.p88 .bar {
+.circle.p88 .bar {
     -webkit-transform: rotate(316.8deg);
     -moz-transform: rotate(316.8deg);
     -ms-transform: rotate(316.8deg);
@@ -280,7 +276,7 @@
     transform: rotate(316.8deg);
 }
 
-.c100.p89 .bar {
+.circle.p89 .bar {
     -webkit-transform: rotate(320.40000000000003deg);
     -moz-transform: rotate(320.40000000000003deg);
     -ms-transform: rotate(320.40000000000003deg);
@@ -288,7 +284,7 @@
     transform: rotate(320.40000000000003deg);
 }
 
-.c100.p90 .bar {
+.circle.p90 .bar {
     -webkit-transform: rotate(324deg);
     -moz-transform: rotate(324deg);
     -ms-transform: rotate(324deg);
