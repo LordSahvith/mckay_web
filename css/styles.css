@@ -19,11 +19,11 @@ p {
 /* ==== HEADER ==== */
 
 header {
-    background-color: #aaa;
     height: 50vh;
     width: 100%;
     position: relative;
     overflow: hidden;
+    margin-top: 60px;
 }
 
 .hero-home {
@@ -45,7 +45,8 @@ header .col {
 /* ==== INTRO ==== */
 
 .intro {
-    margin-bottom: 30px;
+    padding-bottom: 30px;
+/*    background-color: #eee;*/
 }
 
 .intro p {
@@ -137,6 +138,10 @@ header .col {
 
 /* ======== TESTIMONIALS - HOME =========== */
 
+.testimonials {
+/*    background-color: #eee;*/
+}
+
 blockquote {
     line-height: 2;
     font-style: italic;
@@ -169,7 +174,7 @@ blockquote::after {
 /* ======== SERVICES - HOME =========== */
 
 .services-home {
-    background-color: #ddd;
+    background-color: #eee;
 }
 
 .services-home h2 {
@@ -241,6 +246,42 @@ blockquote::after {
 }
 
 
+/* ====== SKILLS =================== */
+
+.skills {
+    background-color: #ddd;
+}
+
+.skills h2 {
+    margin-bottom: 0;
+}
+
+.skill-container {
+    height: 200px;
+    margin-top: 60px;
+    padding-left: 40px;
+}
+
+.wordpress {
+    padding-top: 35px;
+}
+
+.awesome-info {
+    margin-top: 60px;
+}
+
+.info-number {
+    border-bottom: 1px solid #da1d1d;
+    width: 60px;
+    padding-bottom: 5px;
+    margin: 0 auto;
+}
+
+.info-type {
+    padding-top: 5px;
+}
+
+
 /* ====== MEDIA QUERIES =================== */
 
 @media screen and (min-width: 530px) {
@@ -265,6 +306,10 @@ blockquote::after {
     .code,
     .cms {
         left: 145px;
+    }
+
+    .skill-container {
+        padding-left: 95px;
     }
 }
 
@@ -291,6 +336,15 @@ blockquote::after {
     .cms {
         left: 40px;
     }
+
+    /* ====== SERVICES - HOME ============= */
+    .awesome-info {
+        margin-left: 25px;
+    } 
+
+    .skill-container {
+        padding-left: 0;
+    }
 }
 
 @media screen and (min-width: 980px) {
@@ -316,6 +370,11 @@ blockquote::after {
     .cms {
         left: 60px;
     }
+
+    /* ====== SERVICES - HOME ============= */
+    .awesome-info {
+        margin-left: 0;
+    }    
 }
 
 @media screen and (min-width: 1200px) {
@@ -340,6 +399,10 @@ blockquote::after {
     .code,
     .cms {
         left: 90px;
+    }
+
+    .skill-container {
+        padding-left: 40px;
     }
 }
 
