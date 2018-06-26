@@ -1,11 +1,12 @@
 .nav-bar {
-    background-color: #ddd;
+    background-color: #ccc;
     padding: 5px 25px;
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
-    z-index: 10;
+    z-index: 20;
+    border-bottom: 1px solid #ccc;
 }
 
 .logo img {
