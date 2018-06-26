@@ -35,11 +35,11 @@ header {
 
 header .col {
     background-color: rgba(0, 0, 0, .4);
-    height: 50vh;
+    height: 100vh;
 }
 
 .page-title {
-    padding-top: 20vh;
+    padding-top: 40vh;
     text-align: center;
     color: #FFF;
 }
