@@ -369,6 +369,7 @@ fieldset {
     padding: 5px;
     margin-bottom: 15px;
     border: 1px solid #aaa;
+    text-align: center;
 }
 
 .contact-form textarea {
