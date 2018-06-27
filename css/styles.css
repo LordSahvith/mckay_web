@@ -39,9 +39,17 @@ header .col {
 }
 
 .page-title {
-    padding-top: 40vh;
+    padding-top: 35vh;
     text-align: center;
     color: #FFF;
+}
+
+.page-title h2 {
+    font-size: 2rem;
+}
+
+.page-title p {
+    font-size: 1.5rem;
 }
 
 /* ==== INTRO ==== */
@@ -437,6 +445,14 @@ button:hover {
 }
 
 @media screen and (min-width: 750px) {
+
+    .page-title h2 {
+        font-size: 3rem;
+    }
+
+    .page-title p {
+        font-size: 2rem;
+    }
     
     .project-name {
         font-size: 1.3rem;
@@ -472,6 +488,14 @@ button:hover {
 }
 
 @media screen and (min-width: 980px) {
+
+    .page-title h2 {
+        font-size: 3rem;
+    }
+
+    .page-title p {
+        font-size: 2rem;
+    }
     
     .project-name {
         font-size: 1.2rem;
