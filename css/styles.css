@@ -182,6 +182,9 @@ header .col {
 blockquote {
     line-height: 2;
     font-style: italic;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 blockquote::before {
