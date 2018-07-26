@@ -17,25 +17,24 @@
     <link rel="stylesheet" href="/css/circles.css">
 </head>
 
-<body>
+<body id="home">
 
 
     <!-- ==== NAV ============================= -->
 
     <div class="nav-bar">
 
-        <a class="logo" href="index.html">
+        <a id="home-btn" class="logo">
             <img src="/img/logo-red.png" alt="Mckay Web Design Logo">
         </a>
 
 
         <nav id="nav-items" class="overlay" role="navigation">
             <div class="overlay-content">
-                <a href="#" class="nav-link" onclick="closeNav()">Services</a>
-                <a href="#" class="nav-link">Projects</a>
-                <!--                <a href="#" class="nav-link">Blog</a>-->
-                <a href="#" class="nav-link">About</a>
-                <a href="#" class="nav-link">Contact</a>
+                <a id="about-btn" class="nav-link">About</a>
+                <a id="projects-btn" class="nav-link">Projects</a>
+                <a id="services-btn" class="nav-link">Services</a>
+                <a id="contact-btn" class="nav-link">Contact</a>
             </div>
         </nav>
 
@@ -75,7 +74,7 @@
 
         <!-- ==== INTRO ============================= -->
 
-        <section class="intro">
+        <section id="about" class="intro">
 
             <div class="container">
 
@@ -117,7 +116,7 @@
 
         <!-- ==== RECENT WORK ============================= -->
 
-        <section class="recent-work">
+        <section id="projects" class="recent-work">
 
             <div class="container">
 
@@ -178,7 +177,7 @@
 
         <!-- ==== SERVICES ============================= -->
 
-        <section class="services-home">
+        <section id="services" class="services-home">
 
             <div class="container">
                 
@@ -435,7 +434,7 @@
 
     <!-- ==== RECENT POSTS - HOME ===================== -->
 
-    <section class="contact-home">
+    <section id="contact" class="contact-home">
 
         <div class="container fade-up">
 
@@ -507,6 +506,7 @@
     <script src="js/mobile_nav.js"></script>
     <script src="js/fade_on_scroll.js"></script>
     <script src="js/counter.js"></script>
+    <script src="js/page_scroll.js"></script>
 
 
 </body>
