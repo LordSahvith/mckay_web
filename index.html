@@ -8,13 +8,13 @@
 
     <link rel="shortcut icon" type="image/png" href="/img/logo-red.png" />
 
-    <link rel="stylesheet" href="/fontawesome-free-5.0.4/web-fonts-with-css/css/fontawesome-all.min.css">
-    <link rel="stylesheet" href="/css/normalize.css">
-    <link rel="stylesheet" href="/css/responsive.css">
-    <link rel="stylesheet" href="/css/fade_on_scroll.css">
-    <link rel="stylesheet" href="/css/site-nav.css">
-    <link rel="stylesheet" href="/css/styles.css">
-    <link rel="stylesheet" href="/css/circles.css">
+    <link rel="stylesheet" href="./fontawesome-free-5.0.4/web-fonts-with-css/css/fontawesome-all.min.css">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+    <link rel="stylesheet" href="./css/fade_on_scroll.css">
+    <link rel="stylesheet" href="./css/site-nav.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/circles.css">
 </head>
 
 <body id="home">
@@ -24,13 +24,13 @@
 
     <div class="nav-bar">
 
-        <a id="home-btn" class="logo">
+        <a id="home-btn" class="logo fade-up">
             <img src="/img/logo-red.png" alt="Mckay Web Design Logo">
         </a>
 
 
         <nav id="nav-items" class="overlay" role="navigation">
-            <div class="overlay-content">
+            <div class="overlay-content fade-up">
                 <a id="about-btn" class="nav-link">About</a>
                 <a id="projects-btn" class="nav-link">Projects</a>
                 <a id="services-btn" class="nav-link">Services</a>
@@ -132,8 +132,10 @@
 
                                 <div class="col">
                                     <div class="project middle-project">
-                                        <img src="/img/work_pig_4.PNG" alt="">
-                                        <p class="project-name">The Green Pig Pub</p>
+                                        <a href="https://lordsahvith.github.io/live-pig-site/index.html" target="_blank">
+                                            <img src="/img/work_pig_4.PNG" alt="The Green Pig Pub site">
+                                            <p class="project-name">The Green Pig Pub</p>
+                                        </a>
                                     </div>
                                 </div>
 
@@ -330,7 +332,7 @@
                         <div class="circle p90 center">
                             <span>
                                 <i class="fab fa-html5 tooltip"><span class="tooltiptext">HTML5</span></i><br>
-                            <i class="fab fa-css3 tooltip"><span class="tooltiptext">CSS3</span></i>
+                                <i class="fab fa-css3 tooltip"><span class="tooltiptext">CSS3</span></i>
                             </span>
                             <div class="slice">
                                 <div class="bar"></div>
@@ -348,8 +350,9 @@
 
                         <div class="circle p87 center">
                             <span>
-                                <i class="fab fa-js tooltip"><span class="tooltiptext">JavaScript</span></i><br>
-                            <i class="fab fa-github tooltip"><span class="tooltiptext">GitHub</span></i></span>
+                                <i class="fab fa-js-square tooltip"><span class="tooltiptext">JavaScript</span></i><br>
+                                <i class="fab fa-node-js tooltip"><span class="tooltiptext">Node.js</span></i>
+                            </span>
                             <div class="slice">
                                 <div class="bar"></div>
                                 <div class="fill"></div>
@@ -364,8 +367,10 @@
 
                     <div class="skill-container">
 
-                        <div class="circle p80 center">
-                            <span><i class="fab fa-wordpress wordpress tooltip"><span class="tooltiptext">WordPress</span></i>
+                        <div class="circle p83 center">
+                            <span>
+                                <i class="fab fa-wordpress tooltip"><span class="tooltiptext">WordPress</span></i><br>
+                                <i class="fab fa-github tooltip"><span class="tooltiptext">GitHub</span></i>
                             </span>
                             <div class="slice">
                                 <div class="bar"></div>
@@ -386,7 +391,7 @@
 
                     <div class="awesome-info">
                         <div class="info-number">
-                            <h3><div class="counter-value" data-count="105">0</div></h3>
+                            <h3><div class="counter-value" data-count="109">0</div></h3>
                         </div>
 
                         <div class="info-type">
@@ -444,6 +449,7 @@
 
                 <div class="col">
 
+<!--
                     <form role="form" action="" method="post" class="contact-form">
 
                         <fieldset>
@@ -458,11 +464,14 @@
                             <textarea name="message" id="message" cols="30" rows="10" required></textarea>
 
 
-                            <button type="submit">Sign up</button>
+                            <button type="submit">Submit</button>
 
                         </fieldset>
 
                     </form>
+-->
+                    
+                    <button type="submit"><a href="mailto:caleb.mckay.a@gmail.com?subject=Websites">Send</a></button>
 
                 </div>
 

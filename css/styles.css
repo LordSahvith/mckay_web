@@ -338,7 +338,7 @@ blockquote::after {
     padding: 5px 10px;
     font-size: 1.3rem;
     position: absolute;
-    z-index: 1;
+    z-index: 10;
 }
 
 .tooltip:hover .tooltiptext {
@@ -378,6 +378,11 @@ fieldset {
 .contact-form textarea {
     border: 1px solid #aaa;
     margin-bottom: 20px;
+}
+
+button a {
+    text-decoration: none;
+    color: #fff;
 }
 
 /* ====== FOOTTER =================== */
