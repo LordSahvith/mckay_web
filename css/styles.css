@@ -1,6 +1,6 @@
 /*
-    dark red: #c61a1a
-    light red: #da1d1d
+    dark red: #c61a1a rgb(198, 26, 26)
+    light red: #da1d1d rgb(218, 29, 29)
 */
 
 * {
@@ -24,7 +24,7 @@ header {
     width: 100%;
     position: relative;
     overflow: hidden;
-    margin-top: 60px;
+    padding-top: 60px;
 }
 
 .hero-home {
@@ -56,7 +56,6 @@ header .col {
 
 .intro {
     padding-bottom: 30px;
-/*    background-color: #eee;*/
 }
 
 .intro p {
@@ -161,7 +160,7 @@ header .col {
     padding-top: 5px;
     padding-bottom: 5px;
     bottom: -20px;
-    left: 18vw;
+    left: 26%;
     width: 50%;
     transform: translateY(100%);
     transition: all .8s;
@@ -174,10 +173,6 @@ header .col {
 } 
 
 /* ======== TESTIMONIALS - HOME =========== */
-
-.testimonials {
-/*    background-color: #eee;*/
-}
 
 blockquote {
     line-height: 2;
@@ -349,7 +344,6 @@ blockquote::after {
 /* ====== CONATACT - HOME =================== */
 
 .contact-form {
-/*    background-color: #ddd;*/
     padding-top: 15px;
     padding-bottom: 15px;
 }
@@ -427,7 +421,6 @@ button:hover {
     
     .project-name {
         font-size: 1.2rem;
-        left: 17vw;
     }
 
     /* ====== SERVICES - HOME ============= */
@@ -465,7 +458,6 @@ button:hover {
     
     .project-name {
         font-size: 1.3rem;
-        left: 15vw;
     }
 
     /* ====== SERVICES - HOME ============= */
@@ -508,7 +500,6 @@ button:hover {
     
     .project-name {
         font-size: 1.2rem;
-        left: 11.5vw;
     }
 
     /* ====== SERVICES - HOME ============= */
@@ -540,10 +531,6 @@ button:hover {
 }
 
 @media screen and (min-width: 1200px) {
-    
-    .project-name {
-        left: 9.5vw;
-    }
 
     /* ====== SERVICES - HOME ============= */
     .red-screen {
